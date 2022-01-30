@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dashboard | Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <script type="module" defer src="../../js/index.js"></script>
+  </head>
+<body class="position-relative">
+<!-- header -->
+<header class="header sticky-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="text-primary">RasoolBlog</span><span>.ir</span>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mb-1">
+            <a class="nav-link d-flex align-items-center justify-content-center">
+              <span class="me-2">حساب کاربری</span>
+              <i class="fas fa-user-alt fa-lg"></i>
+            </a>
+          </li>
+
+          <li class="nav-item border-right mb-1">
+            <a href="#" class="nav-link d-flex align-items-center justify-content-center">
+              <span class="me-2">خروج</span>
+              <i class="fas fa-sign-out-alt fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- end header -->
+
+<div class="wrapper">
+<!-- aside -->
+<aside class="aside bg-light">
+  <div class="sticky-top">
+    <div class="aside-container">
+      <div class="aside-toggle py-3 d-flex justify-content-end">
+        <label class="switch mx-1">
+          <input id="aside-checkbox" type="checkbox" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="aside-dialog">
+        <a href="#" class="aside-item active">
+          <div class="aside-icon px-1">
+            <i class="fas fa-home fa-lg"></i>
+          </div>
+          
+          <div class="aside-content">داشبورد</div>
+        </a>
+    
+        <a href="#" class="aside-item">
+          <div class="aside-icon px-2">
+            <i class="fas fa-file-alt fa-lg"></i>
+          </div>
+          
+          <div class="aside-content">مقالات</div>
+        </a>
+
+        <a href="#" class="aside-item">
+          <div class="aside-icon px-1">
+            <i class="fas fa-folder-open fa-lg"></i>
+          </div>
+          
+          <div class="aside-content">دسته‌بندی‌ها</div>
+        </a>
+
+        <a href="#" class="aside-item">
+          <div class="aside-icon px-1">
+            <i class="fas fa-comments fa-lg"></i>
+          </div>
+          
+          <div class="aside-content">کامنت‌ها</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</aside>
+<!-- end aside -->
+
+<!-- main -->
+<main class="main p-3 ms-5 me-2 ms-md-0 me-md-0">
+  <h1 class="border-1 border-bottom pt-2 pb-4">داشبورد</h1>
+
+  <!-- articles table -->
+  <div class="articles-table border-1 border-bottom py-4">
+    <h3>مقالات اخیر</h3>
+
+    <table class="table table-hover table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>عنوان</th>
+          <th>نویسنده</th>
+          <th>تنظیمات</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>لورم ایپسوم 1</td>
+          <td>رسول عباسی</td>
+          <td>
+            <a href="#" class="btn btn-outline-primary">ویرایش</a>
+            <a href="#" class="btn btn-outline-danger">حدف</a>
+          </td>
+        </tr>
+
+        <tr>
+          <th>2</th>
+          <td>لورم ایپسوم 2</td>
+          <td>سینا احمدی</td>
+          <td>
+            <a href="#" class="btn btn-outline-primary">ویرایش</a>
+            <a href="#" class="btn btn-outline-danger">حدف</a>
+          </td>
+        </tr>
+
+        <tr>
+          <th>3</th>
+          <td>لورم ایپسوم 3</td>
+          <td>محمد کاظمی</td>
+          <td>
+            <a href="#" class="btn btn-outline-primary">ویرایش</a>
+            <a href="#" class="btn btn-outline-danger">حدف</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- end articles table -->
+
+  <!-- comments tables -->
+  <!-- end comments tables -->
+</main>
+<!-- end main -->
+</div>
+
+
+
+
+
+</body>
+</html>
