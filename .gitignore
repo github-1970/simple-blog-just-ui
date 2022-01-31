@@ -140,3 +140,4 @@ dist
 
 # private
 node_modules
+node_modules/
