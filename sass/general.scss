@@ -4,3 +4,11 @@
   background: var(--bs-info);
   width: 0%;
 }
+
+.btn-outline-info:hover{
+  color: white;
+}
+
+.ck-editor, .ck-editor *{
+  font-family: 'Vazir', Arial, Helvetica, sans-serif !important;
+}

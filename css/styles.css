@@ -11127,6 +11127,7 @@ p {
 
 td, th {
   vertical-align: middle;
+  text-align: center;
 }
 
 /* The progress bar (scroll indicator) */
@@ -11134,6 +11135,14 @@ td, th {
   height: 8px;
   background: var(--bs-info);
   width: 0%;
+}
+
+.btn-outline-info:hover {
+  color: white;
+}
+
+.ck-editor, .ck-editor * {
+  font-family: "Vazir", Arial, Helvetica, sans-serif !important;
 }
 
 .switch {
@@ -11174,11 +11183,7 @@ td, th {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  background-color: black;
 }
 
 input:checked + .slider:before {
@@ -11359,6 +11364,7 @@ header .navbar {
   .wrapper aside {
     position: fixed;
     height: 100vh;
+    z-index: 1000;
   }
   .wrapper aside > .sticky-top {
     position: static !important;

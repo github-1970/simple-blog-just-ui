@@ -1,5 +1,6 @@
 import './vendor/bootstrap.bundle.min.js'
 import './vendor/fontawesome.min.js'
+import './vendor/textEditor.js'
 import './sidebar.js'
 
 // scroll indicator
