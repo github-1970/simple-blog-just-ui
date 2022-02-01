@@ -11,7 +11,9 @@ if (document.querySelector('#aside-checkbox')) {
 }
 
 // scroll indicator
-window.onscroll = function() {myFunction()};
+if(document.querySelector(".p-progress-bar")){
+  window.onscroll = function() {myFunction()}
+}
 
 function myFunction() {
   let progressElem = document.querySelector(".p-progress-bar")
