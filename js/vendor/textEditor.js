@@ -2,7 +2,7 @@ import 'https://cdn.ckeditor.com/ckeditor5/30.0.0/classic/ckeditor.js'
 import 'https://cdn.ckeditor.com/ckeditor5/31.1.0/classic/translations/fa.js'
 
 ClassicEditor
-.create( document.querySelector( '#text' ), {
+.create( document.querySelector( '#textEditor' ), {
   language: 'fa',
 } )
 .then( editor => {

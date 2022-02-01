@@ -1,7 +1,14 @@
 import './vendor/bootstrap.bundle.min.js'
 import './vendor/fontawesome.min.js'
-import './vendor/textEditor.js'
-import './sidebar.js'
+
+// import "textEditor" if require element is exists
+if(document.querySelector( '#textEditor' )){
+  import('./vendor/textEditor.js')
+}
+// import "sidebar" if require element is exists
+if (document.querySelector('#aside-checkbox')) {
+  import('./sidebar.js')
+}
 
 // scroll indicator
 window.onscroll = function() {myFunction()};

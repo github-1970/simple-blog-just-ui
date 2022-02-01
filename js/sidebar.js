@@ -18,7 +18,6 @@ window.addEventListener('resize', function(){
   }
 })
 
-
 asideCheck.addEventListener('click', function(){
   let asideChecked = document.querySelector('#aside-checkbox:checked')
   if(!asideChecked)
